@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 gps2ned_ws
 ======
 
@@ -37,16 +36,4 @@ This demo is running on Ubuntu 14.04 with ROS indigo. To run the demo, follow th
   $ source devel/setup.bash
   $ rosrun gps_tran gps_tran_node
 ```
-=======
-# gps2ned_ws
-GPS transform into NED.
 
-To run the demo, follow these instructions:
-```sh
-  $ cd (your directory)/gps2ned_ws
-  $ catkin_make
-  $ source devel/setup.bash 
-  $ rosrun gps_tran gps_tran_node 
-```
-Thanks for your attention.
->>>>>>> d767a10dea8999b6ccbc00b635472465c861e7fd
