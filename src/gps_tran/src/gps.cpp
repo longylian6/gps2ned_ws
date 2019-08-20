@@ -177,8 +177,8 @@ void GpsTran::fromEcefToGps(GpsDataType&  gps,  const EcefDataType& ecef)
 	}
 	double radius_of_curvature = SEMI_MAJOR_AXIS / sqrt(1-ECCENTRICITY_SQUA*sin_phi*sin_phi); //m
 	gps.altitude = rho*cos_phi + (ecef.z+ECCENTRICITY_SQUA*radius_of_curvature*sin_phi)*sin_phi-radius_of_curvature;
-	gps.latitude = gps.latitude*180/M_PI;				//convert from deg to rad
-	gps.longitude = gps.longitude*180/M_PI;		//convert from deg to rad
+	gps.latitude = gps.latitude*180/M_PI;		//convert from rad to deg
+	gps.longitude = gps.longitude*180/M_PI;		//convert from rad to deg
 	// std::cout<<"longitude="<<gps.longitude<<",\tlatitude="<<gps.latitude<<",\taltitude="<<gps.altitude<<std::endl;
 }
 
