@@ -8,4 +8,4 @@ To run the demo, follow these instructions:
   $ source devel/setup.bash 
   $ rosrun gps_tran gps_tran_node 
 ```
-Thank you.
+Thanks for your attention.
