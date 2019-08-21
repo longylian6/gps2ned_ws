@@ -96,7 +96,7 @@ bool GpsTran::fromGpsToEcef(EcefDataType& ecef, const GpsDataType&  gps)
 		return false;
 	}
 
-	double phi_in_radian 	= gps.latitude*M_PI/180;		//unit: rad
+	double phi_in_radian 	= gps.latitude*M_PI/180;	//unit: rad
 	double lambda_in_radian = gps.longitude*M_PI/180;	//unit: rad
 	double sin_phi 	 = sin(phi_in_radian);
 	double cos_phi 	 = cos(phi_in_radian);
