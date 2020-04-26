@@ -9,7 +9,7 @@ Installation instructions
 This demo is running on Ubuntu 14.04 with ROS indigo. To run the demo, follow these instructions:
 
 * Install and initialize ROS indigo desktop full, additional ROS packages, catkin-tools:
-```sh
+```bash
   $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" > /etc/apt/sources.list.d/ros-latest.list'
   $ wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
   $ sudo apt-get update
@@ -31,7 +31,7 @@ This demo is running on Ubuntu 14.04 with ROS indigo. To run the demo, follow th
 ```sh
   $ roscore
 ```
-```sh
+```bash
   $ cd ~/gps/gps2ned_ws
   $ source devel/setup.bash
   $ rosrun gps_tran gps_tran_node
