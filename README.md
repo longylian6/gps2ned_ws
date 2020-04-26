@@ -19,7 +19,7 @@ This demo is running on Ubuntu 14.04 with ROS indigo. To run the demo, follow th
   $ source /opt/ros/indigo/setup.bash
 ```
 * Initialize and compile catkin workspace:
-```sh
+```bash
   $ mkdir -p ~/gps
   $ cd ~/gps
   $ git clone https://github.com/longylian6/gps2ned_ws.git
@@ -28,7 +28,7 @@ This demo is running on Ubuntu 14.04 with ROS indigo. To run the demo, follow th
   $ catkin_make  # compile your workspace
 ```
 * Run the demo. In seperate terminals run the following commands
-```sh
+```bash
   $ roscore
 ```
 ```bash
